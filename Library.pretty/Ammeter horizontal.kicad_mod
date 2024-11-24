@@ -1,0 +1,207 @@
+(footprint "Ammeter horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d4bc1b74-de2c-44b3-9cdc-a249a848d138")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+			)
+		)
+	)
+	(property "Value" "A_{1}"
+		(at 1 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31d6104e-44dd-48c7-9330-2030ff74d71d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Ammeter horizontal"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bf8931a-5e29-472b-9f13-7c5777bf1648")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2300bbdb-c2da-44f3-962a-4adb3538def7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC ammeter"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3dd9609-2e25-498f-8df5-59215b4c3298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.45 1.6)
+		(end -6.45 -1.6)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01250bd7-e3ff-47ac-b775-d172654a35ae")
+	)
+	(fp_line
+		(start -4.85 0)
+		(end -8.05 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dacadb8a-87c6-42c2-8071-c137125b0c42")
+	)
+	(fp_line
+		(start 8.6 0)
+		(end 5.4 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a6d17781-159d-4c87-b8b3-deaca99c2118")
+	)
+	(fp_circle
+		(center -12.5 0)
+		(end -12.5 2.5)
+		(stroke
+			(width 1.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d0262927-4703-4dfd-8831-98e384a05852")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1f1cc1c9-94e8-4259-a42e-a8c79a2eec60")
+	)
+	(fp_circle
+		(center 12.5 0)
+		(end 12.5 2.5)
+		(stroke
+			(width 1.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "acd081a5-eb85-4609-9be9-720544d7fd4a")
+	)
+	(fp_rect
+		(start -17 -6)
+		(end 17 6)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ac1830dd-97db-43cd-9463-46a5478bea96")
+	)
+	(pad "1" thru_hole circle
+		(at 12.5 0 270)
+		(size 4.8 4.8)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 8)
+			(best_width_ratio 1)
+			(max_width 8)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "3215db7a-dd30-4108-a713-38f7d61ac897")
+	)
+	(pad "2" thru_hole circle
+		(at -12.5 0 270)
+		(size 4.8 4.8)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 8)
+			(best_width_ratio 1)
+			(max_width 8)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "5b0ec0ce-8cd9-4270-818d-eaa748016604")
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(hide yes)
+		(offset
+			(xyz -12 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(hide yes)
+		(offset
+			(xyz 12 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

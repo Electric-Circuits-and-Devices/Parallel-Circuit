@@ -1,0 +1,246 @@
+(footprint "Resistor-Plugin_0.5Watt"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ae40edb-fb17-4fbb-89a8-f4c5a63c3166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb5d2575-7aeb-4951-8b31-1f1638509f45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Resistor-Plugin_0.5Watt"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfd4e190-b517-4ca0-89ff-421051bc19c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b93d2128-a284-448a-97ba-33acb512a240")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80315fa4-2eba-4754-8e59-93b0b2ddbebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.72 -5.37)
+		(end -1.72 3.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c116231-23e5-411b-b9ee-9bc2442f767e")
+	)
+	(fp_line
+		(start 0 -8.8)
+		(end 0 -5.25)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "760a41c6-889a-4be9-ac7e-703249e2d0b0")
+	)
+	(fp_line
+		(start 0 -7.33)
+		(end 0 -5.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91e8f479-9da2-47b9-9511-e07303b7b738")
+	)
+	(fp_line
+		(start 0 5.25)
+		(end 0 8.8)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c1ed135-88c2-42e7-a8f2-247c476fc7ca")
+	)
+	(fp_line
+		(start 1.72 -5.37)
+		(end -1.72 -5.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85c8c20d-a010-49a4-a357-b9a3db01eee6")
+	)
+	(fp_line
+		(start 1.72 3.87)
+		(end 1.72 -5.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93c13a8f-346c-485c-a824-45e2c71c242d")
+	)
+	(fp_rect
+		(start -1.75 -5.25)
+		(end 1.75 5.25)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4ade6057-a2e7-40d3-ba18-9ee05c81fe9d")
+	)
+	(fp_circle
+		(center 0 -12.5)
+		(end 3.75 -12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "49aa1008-62b4-4f49-8165-a2686640292a")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 3.75 12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "82855463-c81c-4318-8162-486b873ce32f")
+	)
+	(fp_rect
+		(start -6 -17)
+		(end 6 17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6d01fdb5-f5c1-4350-a54f-429e1a974d8d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a735714-7f8e-457d-b149-19e1c0fb9606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -12.5)
+		(size 6.5 6.5)
+		(drill 3.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 8)
+			(best_width_ratio 1)
+			(max_width 8)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "b5ef3fea-fbdb-43df-9c79-ac0dd9377f60")
+	)
+	(pad "2" thru_hole circle
+		(at 0 12.5)
+		(size 6.5 6.5)
+		(drill 3.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 8)
+			(best_width_ratio 1)
+			(max_width 8)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "647342ac-a9d2-45de-bfc8-1834a1f2e826")
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 -12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
